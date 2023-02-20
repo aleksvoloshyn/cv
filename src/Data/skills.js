@@ -29,8 +29,8 @@ export const softskills = [
 ]
 
 export const languages = [
-  { id: 1, title: 'English - Upper intermediate' },
+  { id: 1, title: 'English - Intermediate' },
   { id: 2, title: 'French - Elementary' },
   { id: 3, title: 'Ukrainian - Native' },
-  { id: 4, title: 'Russian - free' },
+  { id: 4, title: 'Russian - fluently' },
 ]

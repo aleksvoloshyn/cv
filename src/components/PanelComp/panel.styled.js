@@ -24,13 +24,16 @@ export const PanelHeader = styled.div`
   font-size: 22px;
 `
 export const PanelItems = styled.ul`
+  text-align: start;
   font-size: 16px;
   padding: 16px;
   padding-left: 44px;
   line-height: 1.6;
 `
 export const PanelItem = styled.li`
+  /* display: flex; */
   list-style: initial;
+  text-align: start;
 `
 export const PanelItemLink = styled.a`
   color: #373741;

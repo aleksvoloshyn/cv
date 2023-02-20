@@ -58,12 +58,14 @@ export const BoardItems = styled.ul`
     font-size: 20px;
   }
 `
-export const BoardItem = styled.li``
+export const BoardItem = styled.li`
+  text-align: start;
+`
 
 // for cards
 export const BoardCardItems = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr; */
   gap: 14px;
   align-items: center;
   justify-content: center;
@@ -72,7 +74,7 @@ export const BoardCardItems = styled.div`
   margin-bottom: 12px;
   width: 96%;
   @media screen and (min-width: ${screens.desktop}) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 `
 export const BoardCardItem = styled.div`

@@ -15,7 +15,14 @@ import {
 
 import ProjectCard from './../ProjectCard/ProjectCard'
 // import icecream from './../../../images/icecream.jpg'
-// import filmoteka from './../../../images/filmoteka.jpg'
+import filmoteka from '../../images/filmoteka.png'
+import icecream from '../../images/icecream.png'
+import jobboard from '../../images/jobboard.png'
+import tarifcalcreact from '../../images/tarifcalcreact.png'
+import tarifcalcjs from '../../images/tarifcalcjs.png'
+import imagefinder from '../../images/imagefinder.png'
+import webstudio from '../../images/webstudio.png'
+import healthyfood from '../../images/helthyfood.png'
 // import kapusta from './../../../images/kapusta.jpg'
 // import moviesearch from './../../../images/moviesearch.jpg'
 // import phonebook from './../../../images/phonebook.jpg'
@@ -34,23 +41,23 @@ const summary = `I'm a Front-End developer looking for a position in a friendly
 const teamProjects = [
   {
     id: 1,
-    frontTitle: 'Filmoteka ',
-    imageSrc: '',
-    frontContent: 'Movies library app. Teamwork.',
+    frontTitle: 'Filmoteka',
+    imageSrc: filmoteka,
+    frontContent: 'Movies library application (teamwork). ',
     role: 'developer',
-    techStack: 'HTML, SASS, CSS, JS, Handlebars, REST API, AXIOS, Parcel',
-    backRepo: 'https://github.com/aleksvoloshyn/filmoteka',
-    backSite: 'https://nataliiavalko.github.io/filmoteka-js/',
+    techStack: 'HTML, SASS, JS, Handlebars, REST API, AXIOS, Parcel',
+    backRepo: ' https://github.com/aleksvoloshyn/filmoteka',
+    backSite: ' http://surl.li/eyfgv',
   },
   {
     id: 2,
-    frontTitle: 'Ice Cream ',
-    imageSrc: '',
+    frontTitle: 'Ice Cream',
+    imageSrc: icecream,
     frontContent: 'The website with a responsive layout.',
     role: 'developer',
     techStack: 'HTML, SASS, JS, Parsel',
-    backRepo: 'https://github.com/aleksvoloshyn/iceCream',
-    backSite: 'https://nataliiavalko.github.io/parcel-project-template/',
+    backRepo: ' https://github.com/aleksvoloshyn/iceCream',
+    backSite: 'http://surl.li/eyfgx',
   },
   // {
   //   id: 3,
@@ -66,67 +73,63 @@ const teamProjects = [
 const myOwnProjects = [
   {
     id: 1,
-    frontTitle: 'WebStudio ',
-    imageSrc: '',
+    frontTitle: 'JOB BOARD',
+    imageSrc: jobboard,
+    frontContent: 'Adaptive Job board app',
+    role: '',
+    techStack: ' ReactJS, Tailwindcss (tab,desktop)',
+    backRepo: 'https://github.com/aleksvoloshyn/jobboard',
+    backSite: 'https://av-jobboard.netlify.app',
+  },
+  {
+    id: 2,
+    frontTitle: "PROVIDER's CALC (react)",
+    imageSrc: tarifcalcreact,
+    frontContent: 'Tarifs calculator app',
+    role: '',
+    techStack: ' React JS',
+    backRepo: 'https://github.com/aleksvoloshyn/provider-calc-react',
+    backSite: 'https://provider-calc-react.netlify.app',
+  },
+  {
+    id: 3,
+    frontTitle: "PROVIDER's CALC ( js)",
+    imageSrc: tarifcalcjs,
+    frontContent: 'Tarifs calculator app',
+    role: '',
+    techStack: ' HTML, SCSS, JS ',
+    backRepo: 'https://github.com/aleksvoloshyn/provider-calculator',
+    backSite: 'https://aleksvoloshyn.github.io/provider-calculator',
+  },
+  {
+    id: 4,
+    frontTitle: 'IMAGE FINDER',
+    imageSrc: imagefinder,
+    frontContent: 'Image finder service app',
+    role: '',
+    techStack: ' React JS',
+    backRepo: 'https://github.com/aleksvoloshyn/goit-react-hw-04-hooks-images',
+    backSite: 'https://aleksvoloshyn.github.io/goit-react-hw-04-hooks-images',
+  },
+  {
+    id: 5,
+    frontTitle: 'WEBSTUDIO',
+    imageSrc: webstudio,
     frontContent: 'Adaptive website markup',
-    role: 'developer',
-    techStack: ' HTML, SASS, CSS, JS',
+    role: '',
+    techStack: ' HTML, SCSS',
     backRepo: 'https://github.com/aleksvoloshyn/goit-markup-hw-08',
     backSite: 'https://aleksvoloshyn.github.io/goit-markup-hw-08/index.html',
   },
   {
-    id: 2,
-    frontTitle: 'Images finder ',
-    imageSrc: '',
-    frontContent: 'Images search service',
-    role: 'developer',
-    techStack: ' REACT',
-    backRepo:
-      'https://github.com/aleksvoloshyn/rr_dash/tree/dev/src/pages/ImageFinder',
-    backSite: 'https://alex-dashboard.netlify.app/image_finder',
-  },
-  {
-    id: 3,
-    frontTitle: 'Phone Book ',
-    imageSrc: '',
-    frontContent: 'phonebook  service',
-    role: 'developer',
-    techStack: 'REACT',
-    backRepo: 'https://github.com/aleksvoloshyn/goit-react-hw-06-phonebook',
-    backSite: 'https://alv-phone-book.netlify.app/',
-  },
-  {
-    id: 4,
-    frontTitle: 'Dashboard',
-    imageSrc: '',
-    frontContent: 'Dashboard app',
-    role: 'developer',
-    techStack: 'WEBPACK, REACT, styled-components',
-    backRepo: 'https://github.com/aleksvoloshyn/rr_dash/tree/dev',
-    backSite: 'https://alex-dashboard.netlify.app/',
-  },
-
-  {
-    id: 5,
-    frontTitle: 'Movie search',
-    imageSrc: '',
-    frontContent: 'Movie search service',
-    role: 'developer',
-    techStack: 'WEBPACK, REACT',
-    backRepo:
-      'https://github.com/aleksvoloshyn/rr_dash/tree/dev/src/pages/Moviesearch',
-    backSite: 'https://alex-dashboard.netlify.app/moviesearch',
-  },
-  {
     id: 6,
-    frontTitle: 'Todo-list',
-    imageSrc: '',
-    frontContent: 'Todo-list app',
-    role: 'developer',
-    techStack: 'WEBPACK, REACT',
-    backRepo:
-      'https://github.com/aleksvoloshyn/rr_dash/tree/dev/src/pages/ToDoLIst',
-    backSite: 'https://alex-dashboard.netlify.app/todolist',
+    frontTitle: 'HEALTHY FOOD',
+    imageSrc: healthyfood,
+    frontContent: 'Healthy food landing page markup',
+    role: '',
+    techStack: ' HTML, SCSS',
+    backRepo: 'https://github.com/aleksvoloshyn/healthyfood',
+    backSite: 'https://aleksvoloshyn.github.io/healthyfood',
   },
 ]
 
@@ -147,6 +150,25 @@ const BoardComp = () => {
         </BoardSection>
 
         <BoardSection>
+          <BoardHeader>PROJECTS (HTML, CSS, JS, REACT)</BoardHeader>
+          <BoardCardItems>
+            {myOwnProjects.map((proj) => {
+              return (
+                <ProjectCard
+                  key={uuidv4()}
+                  frontTitle={proj.frontTitle}
+                  imageSrc={proj.imageSrc}
+                  frontContent={proj.frontContent}
+                  role={proj.role}
+                  backRepo={proj.backRepo}
+                  backSite={proj.backSite}
+                  techStack={proj.techStack}
+                ></ProjectCard>
+              )
+            })}
+          </BoardCardItems>
+        </BoardSection>
+        <BoardSection>
           <BoardHeader>TEAM-PROJECTS EXPERIENCE</BoardHeader>
           <BoardCardItems>
             {teamProjects.map((proj) => {
@@ -166,25 +188,6 @@ const BoardComp = () => {
           </BoardCardItems>
         </BoardSection>
 
-        <BoardSection>
-          <BoardHeader>OTHER PROJECTS (HTML, CSS, JS, REACT)</BoardHeader>
-          <BoardCardItems>
-            {myOwnProjects.map((proj) => {
-              return (
-                <ProjectCard
-                  key={uuidv4()}
-                  frontTitle={proj.frontTitle}
-                  imageSrc={proj.imageSrc}
-                  frontContent={proj.frontContent}
-                  role={proj.role}
-                  backRepo={proj.backRepo}
-                  backSite={proj.backSite}
-                  techStack={proj.techStack}
-                ></ProjectCard>
-              )
-            })}
-          </BoardCardItems>
-        </BoardSection>
         <BoardSection>
           <BoardHeader>WORK EXPERIENCE</BoardHeader>
           <BoardItems>

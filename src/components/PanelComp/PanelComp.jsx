@@ -26,8 +26,8 @@ const PanelComp = () => {
           <PanelHeader>CONTACTS</PanelHeader>
           <PanelItems>
             <PanelItem>
-              <PanelItemLink href="tel:+380935007030">
-                +38(093)5007030
+              <PanelItemLink href="tel:+ 380935007030">
+                + 38 (093) 500-70-30
               </PanelItemLink>
             </PanelItem>
             <PanelItem>
